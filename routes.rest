@@ -1,0 +1,68 @@
+### Get all users from localhost
+GET http://localhost:3000/users
+
+### Get user by Id
+GET http://localhost:3000/users/655215f9c8d9fca069df0354
+
+### Create a user
+POST http://localhost:3000/users
+content-type: application/json
+
+{
+    "email":"johndoe@example.com",
+    "birthday":"March 5 1995",
+    "favoriteColor":"White",
+    "firstName":"John",
+    "lastName":"Doe"
+}
+
+### PUT User
+PUT http://localhost:3000/users/6552190ec8d9fca069df0359
+content-type: application/json
+
+{
+    "firstName": "Brian",
+    "lastName": "Henshaw",
+    "email": "henjohn@example.com",
+    "favoriteColor": "Violet",
+    "birthday": "11/04/1990"
+}
+
+### DELETE USER
+DEELTE http://localhost:3000/users/656cd8c735c2343efbf0d620
+
+
+// TESTING IN PRODUCTION USING REST CLIENT
+
+### Get Single
+GET https://project1-cdyb.onrender.com/users/
+
+### Get user by Id
+GET https://project1-cdyb.onrender.com/users/655215f9c8d9fca069df0354
+
+### Create a user
+POST https://project1-cdyb.onrender.com/users
+content-type: application/json
+
+{
+    "email":"administrator@admin.com",
+    "birthday":"August 10 2003",
+    "favoriteColor":"Red",
+    "firstName":"Super",
+    "lastName":"Administrator"
+}
+
+### PUT User
+PUT https://project1-cdyb.onrender.com/users/6552190ec8d9fca069df0359
+content-type: application/json
+
+{
+    "firstName": "Hendrick",
+    "lastName": "Henshaw",
+    "email": "henjohn@example.com",
+    "favoriteColor": "Violet",
+    "birthday": "11/04/1990"
+}
+
+### DELETE USER
+DELETE https://project1-cdyb.onrender.com/users/656cb83feb5c5b4ab420b4fd
