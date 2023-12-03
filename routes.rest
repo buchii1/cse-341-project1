@@ -1,11 +1,11 @@
-### Get all users from localhost
-GET http://localhost:3000/users
+### Get all contacts from localhost
+GET http://localhost:3000/contacts
 
-### Get user by Id
-GET http://localhost:3000/users/655215f9c8d9fca069df0354
+### Get contact by Id
+GET http://localhost:3000/contacts/655215f9c8d9fca069df0354
 
-### Create a user
-POST http://localhost:3000/users
+### Create a contact
+POST http://localhost:3000/contacts
 content-type: application/json
 
 {
@@ -16,8 +16,8 @@ content-type: application/json
     "lastName":"Doe"
 }
 
-### PUT User
-PUT http://localhost:3000/users/6552190ec8d9fca069df0359
+### PUT contact
+PUT http://localhost:3000/contacts/6552190ec8d9fca069df0359
 content-type: application/json
 
 {
@@ -28,20 +28,20 @@ content-type: application/json
     "birthday": "11/04/1990"
 }
 
-### DELETE USER
-DEELTE http://localhost:3000/users/656cd8c735c2343efbf0d620
+### DELETE contact
+DEELTE http://localhost:3000/contacts/656cd8c735c2343efbf0d620
 
 
 // TESTING IN PRODUCTION USING REST CLIENT
 
 ### Get Single
-GET https://project1-cdyb.onrender.com/users/
+GET https://project1-cdyb.onrender.com/contacts/
 
-### Get user by Id
-GET https://project1-cdyb.onrender.com/users/655215f9c8d9fca069df0354
+### Get contact by Id
+GET https://project1-cdyb.onrender.com/contacts/655215f9c8d9fca069df0354
 
-### Create a user
-POST https://project1-cdyb.onrender.com/users
+### Create a contact
+POST https://project1-cdyb.onrender.com/contacts
 content-type: application/json
 
 {
@@ -52,8 +52,8 @@ content-type: application/json
     "lastName":"Administrator"
 }
 
-### PUT User
-PUT https://project1-cdyb.onrender.com/users/6552190ec8d9fca069df0359
+### PUT contact
+PUT https://project1-cdyb.onrender.com/contacts/6552190ec8d9fca069df0359
 content-type: application/json
 
 {
@@ -64,5 +64,5 @@ content-type: application/json
     "birthday": "11/04/1990"
 }
 
-### DELETE USER
-DELETE https://project1-cdyb.onrender.com/users/656cb83feb5c5b4ab420b4fd
+### DELETE contact
+DELETE https://project1-cdyb.onrender.com/contacts/656cb83feb5c5b4ab420b4fd

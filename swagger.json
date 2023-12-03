@@ -1,8 +1,8 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "Users Api",
-    "description": "Users Api",
+    "title": "Contacts Api",
+    "description": "Contacts Api",
     "version": "1.0.0"
   },
   "host": "project1-cdyb.onrender.com",
@@ -11,23 +11,10 @@
     "https"
   ],
   "paths": {
-    "/": {
+    "/contacts/": {
       "get": {
         "tags": [
-          "Hello World"
-        ],
-        "description": "",
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/users/": {
-      "get": {
-        "tags": [
-          "Users"
+          "Contacts"
         ],
         "description": "",
         "produces": [
@@ -41,7 +28,7 @@
       },
       "post": {
         "tags": [
-          "Users"
+          "Contacts"
         ],
         "description": "",
         "parameters": [
@@ -80,10 +67,10 @@
         }
       }
     },
-    "/users/{id}": {
+    "/contacts/{id}": {
       "get": {
         "tags": [
-          "Users"
+          "Contacts"
         ],
         "description": "",
         "produces": [
@@ -105,7 +92,7 @@
       },
       "put": {
         "tags": [
-          "Users"
+          "Contacts"
         ],
         "description": "",
         "parameters": [
@@ -151,7 +138,7 @@
       },
       "delete": {
         "tags": [
-          "Users"
+          "Contacts"
         ],
         "description": "",
         "parameters": [
